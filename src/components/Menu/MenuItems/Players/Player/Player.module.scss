@@ -1,0 +1,23 @@
+.Player {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Icon {
+}
+
+.Name {
+}
+
+.Left,
+.Right {
+  gap: 10px;
+  display: flex;
+}

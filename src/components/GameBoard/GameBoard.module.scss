@@ -1,0 +1,25 @@
+.GameBoard {
+}
+
+.Players {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-content: baseline;
+}
+
+.Announcements {
+  font-weight: 800;
+  margin-bottom: 30px;
+  font-size: 2em;
+  .Name {
+    color: rgb(237 5 237);
+  }
+}
+
+.TopButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}

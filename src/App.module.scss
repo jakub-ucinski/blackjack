@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  margin: 0 20px;
+}
+
+.Logo {
+  display: flex;
+  margin-bottom: 30px;
+  .LogoLetter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    background-color: black;
+    color: white;
+  }
+}
